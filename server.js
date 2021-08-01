@@ -4,7 +4,7 @@ const randomId = require('random-id');
 const fs = require('fs')
 const app = express(),
       bodyParser = require("body-parser");
-      port = process.env.PORT || 3080;
+      port = process.env.PORT || https://vuenodeapp9966.herokuapp.com/ || 3080;
 
 // place holder for the data
 const users = [];
