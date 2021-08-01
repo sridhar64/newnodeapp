@@ -24,7 +24,7 @@ const datajson = [];
 //   parameterLimit: 100000,
 //   extended: true 
 // }));
-app.use(bodyParser.json({limit: '50mb'}));
+app.use(bodyParser.json({limit: '5000mb'}));
 app.use(express.static(path.join(__dirname, '../my-app/dist')));
 
 app.get('/api/users', (req, res) => {
